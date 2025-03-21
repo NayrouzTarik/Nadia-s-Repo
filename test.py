@@ -1,5 +1,9 @@
 import streamlit as st
 import pandas as pd
+import os
+
+os.system("pip install openpyxl")
+
 
 # GitHub Raw URLs for the Excel files
 DATA_PROF_FST_URL = "https://raw.githubusercontent.com/NayrouzTarik/Nadia-s-Repo/main/DATA%20PROF%20FST.xlsx"
