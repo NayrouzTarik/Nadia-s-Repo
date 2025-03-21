@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
-import os
 
-os.system("pip install openpyxl")
 
 
 # GitHub Raw URLs for the Excel files
