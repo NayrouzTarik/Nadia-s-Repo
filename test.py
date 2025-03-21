@@ -2,10 +2,9 @@ import streamlit as st
 import pandas as pd
 
 
-
-# GitHub Raw URLs for the Excel files
 DATA_PROF_FST_URL = "https://raw.githubusercontent.com/NayrouzTarik/Nadia-s-Repo/main/DATA%20PROF%20FST.xlsx"
 CLASSEUR_EXCEL_1_URL = "https://raw.githubusercontent.com/NayrouzTarik/Nadia-s-Repo/main/Classeur%20Excel%201.xlsx"
+
 
 # Function to load Excel files (cached for performance)
 @st.cache_data
